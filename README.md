@@ -1,6 +1,8 @@
-Data science tutorials and projects
+# Data science tutorials and projects
 
 Here I post my DataScience related tutorials and projects.
-List for 22 Aug 2017.
-1. Bina_az_tutorial
-  There I have fetched various information from 'Bina.az" website - leading real estate website of Azerbaijan. Wrangled data and presented in graphs and map representations.
+
+ **List for 22 Aug 2017.**
+ * Bina_az_tutorial
+ 
+  There I have fetched various information from 'Bina.az" website - leading real estate website of Azerbaijan. Wrangled data and  presentedin graphs and map representations.
