@@ -19,26 +19,26 @@ Mənim Əhməd adlı tanışım var və 5 ay əvvəl onunla danışanda o mənə
 
 Elə bu cür suallara cavab vermək üçün bizə Bayes formulası lazım olur. Bayes formulasının mənası ehtimalı yeni daxil olmuş məlumat üzərində yeniləməkdir. Suala cavab vermək üçün vizual ehtimal ağacından istifadə edək:
 
-![1.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/1.png)
+![ML_2_1.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_1.png)
 
 Bizdə olan məlumat, artıq baş vermiş maşın alışı faktı üzərində əsaslanır, lazım olan ondan əvvəl baş vermiş vəzifə statusunun yenilənməsinin ehtimalın tapmaqdır. Bunun üçün ehtimal ağacı budağların kodlaşdıraq və faizləri rəqəmə keçirək.!
-![2.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/2.png)
+![ML_2_2.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_2.png)
 
 Budaqlara kod hərfləri verdikdən sonra formula üzərinə keçək:
 
-![3.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/3.png)
+![ML_2_3.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_3.png)
 
 Əgər formulanı Azərbaycan dilinə tərcümə etsək:
 
-![4.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/4.png)
+![ML_2_4.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_4.png)
 
 Nəhayət bildiyimiz ehtimal faizlərini işə salaq:
 
-![5.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/5.png)
+![ML_2_5.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_5.png)
 
 Cavabı tapdıq və o 86.1% bərabırdir amma tam anlam üçün ağaca və klasslara yenə nəzər yetirək:
 
-![6.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/6.png)
+![ML_2_6.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_6.png)
 
 Beləliklə Bayes teoremi köməkliyi ilə mən 86.1% əminliklə zəng edib yeni vəzifə və yeni maşın münasibəti ilə dostumu təbrik edə bilərəm.
 
@@ -47,18 +47,18 @@ Beləliklə Bayes teoremi köməkliyi ilə mən 86.1% əminliklə zəng edib yen
 
 Verilənlərin hədəf klass sayı ikidən çox olanda  Binomial modeldən fərqli olaraq ədədin ehtimalının olub/olmaması ilə yox, nə qədər  təkrarlandığı haqqında xəbər verir. Formulada gördüyünüz "α" yeni verilən məlumat üzərində ehtimal hesablaması aparan zaman test verilənlər içərisində qarşılaşmadığımız ədədlər üçün ehtimal hesablayarkən klas ehtimalın sıfıra bərabər olmaması üçün "α>1"(Laplas üzrə) və ya "α<1" (Lindston üzrə) bərabər olur.
 
-![7.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/7.png)
+![ML_2_7.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_7.png)
 
 
 * Gaus modeli
 
-![8.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/8.png)
+![ML_2_8.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_8.png)
 
 Müxtəlif klas üzrə klassifikasiya üçün daha uyğundur.  Verilmiş xüsusiyyət davamlı ehtimalların mərkəzdən eyni uzaqlığda yerləşdiyini və simmetrik olduğunu fərziyyə edir. (68% məlumat mərkəzdən 1 standart paylama, 95% - 2 və 99.7%- 3 standart paylamada yerləşir).
 
 * Binomial modeli
 
-![9.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/9.png)
+![ML_2_9.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_9.png)
 
  Adından bəlli olduğu kimi verilənlərin hədəf klass sayı ikiyə bərabər olanda ( "Hə"/"Yox", "True"/"False") yəni binar oldğuğu halda özünü daha yaxşı göstərir. Mətn klassifikasiyasında Multinomial model ilə bir istifadə olunur.
 
@@ -111,7 +111,7 @@ Gördüyümüz kimi 12 şərh yazan oxuyucudan şəkkizi məqaləm haqqında "m�
 
 Multinomial modeldən istifadə edək (yaddan çıxarmayaq ki "+1" Laplas sakitləşməsi və qarşılaşmadığımız sözlərin ehtimalı sıfırlamaması üçündür):
 
-![10.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/10.png)
+![ML_2_10.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_10.png)
 
 Pozitiv şərhləri ayıraq və siyahısın tərtib edək:
 
@@ -140,19 +140,19 @@ Biz bu əməliyyatları icra edincə mənim keçmiş məqaləmə yeni şərh gə
 | Xoşuma       | 0,040816327 | 0,054054054 |
 | Gəlmədi      | 0,020408163 | 0,108108108 |
 
-![11.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/11.png)
+![ML_2_11.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_11.png)
 
 İlk öncə Müsbət klass üzrə klass ehtimalının sayılmasından başlayaq:
 
-![12PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/12.png)
+![ML_2_12.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_12.png)
 
 Sonra ayrıca Mənfi klass üzrə:
 
-![13.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/13.png)
+![ML_2_13.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_13.png)
 
 Hesablamalar bitdi, artıq müqaisə etmə zamanıdır : 
 
-![14.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/14.png)
+![ML_2_14.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_2_14.png)
 
 SBK ehtimalları sayıb girişdə olan şərhi ən böyük dəyərə malik olan klas ehtimalına aid edir. Bu deməkdir ki klassifikator şərhi lazım olan "Mənfi" klasa ayırdı. 
 ### Təbriklər! İlk manual maşın öyrənməsi alqoritmi üzərindən keçdik və klassifikasiya etdik!
