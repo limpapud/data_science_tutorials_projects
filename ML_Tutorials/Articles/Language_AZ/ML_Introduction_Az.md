@@ -11,7 +11,8 @@ Maşın öyrənməsini 3 tipə bölünür:
 
 ## Müəllimli öyrənmə
 
-![ML_1.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/ML_1.png)
+![ML_1_1.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_1_1.png)
+
 
 **Müəllimli öyrənmə**nin əsas məqsədi artıq malik olduğumuz tarixi  *“yarlığlı”* (yəni adı və mənası məlum) verilənlər vasitəsi ilə gələcəkdə rast gəlinən verilənlər üzərində reqressiya və ya klassifikasiya apararaq prognozlar verməkdir.
 Bu halda “müəllim” halında **giriş**də verilmiş məlumat və onun **çıxış**da olan nəticəsi çıxış edir,və artıq məlum məlumat əsasında problemə uyğun maşın öyrənməsi alqoritmi vasitəsi ilə funksiya yaradaraq  gələcək məlumat üçün proqnoz yaradır. ***Bir sözlə bu öyrmənmənin məqsədi "prognozlaşdırma"-dır.***
@@ -45,7 +46,7 @@ Alqoritmlər:
 * Gradient gücləndirmə
 
 ## Müəllimsiz öyrənmə
-![ML_2.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/ML_2.png)
+![ML_1_2.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_1_2.png)
 
 Müəllimli öyrənmədən fərqli olaraq Müəllimsiz öyrənmədə verilənlərin başlıqları və axtardığımız nəticə olmur. Bu yolun əsəs məqsədi malik olduğumuz məlumatı maksimal olaraq strukturlaşdırıb, gruplaşdırıb əsasında verilənlərin bizə "nə danışdığını" göz önünə gətirməkdir. Bu deməkdir ki əslində bu tip öyrənmədədə müəllim var amma bu rolu kompyuter yeninə yetirir. İstifadə misalı? Hansı məhsulların və xidmətlətin bir yerdə alındığını analiz edib malların mağazada yerləşməsinə və email vasitəsi ilə yalnız müşəri üçün aktual və lazımlı təklifləri vermək.
 Əlavə olaraq qeyd etmək lazımdır ki müəllimsiz öyrənmə anomal halların tapılması üçün alqoritmlər də istifadə olunur.***Yəni bu öyrənmənin məqsədi *** **təsvir etməkdir və gizli bağlılığları tapmaqdır.**.
@@ -74,7 +75,7 @@ Alqorimtlər:
 
 ## Möhkəmlətmə ilə öyrənmə
 Bu öyrənmə tipində ***agent, ətraf mühit*** ilə qarşılıqlı əlaqə nəticəsində seçimlər və hərəkətlər yerinə yetirir və bunun qarşılığında əks siqnallar alır. Alınmış siqnal əsasında *agent* yeni seçimlər edir və proses yenidən başlanır. Beləliklə bu öyrənməni də bir baxımdan "müəllim ilə öyrənmə" saymaq olsa da fərqlidir, fərqi isə burada 1 müəllim və 1 şaqird yox, 2 müəllimin bir-birini öyrətməsi və təkminləşdirməsidir. Məsəl olaraq şahmat oyunu  - hər bir şahmat addımdan sonra hər iki oyunçu (*agent*) üçün vəziyyət (*mühit*) dəyişir. Indi isə təsəvvür edin ki kompyuter sizin addımınızdan aslı olaraq hər bir mümkün cavab addım və ondan sonra mümkün nəticəni qabağcadan sayır və öz şahmat figurunu və pozisiyasın ona əsasən yerləşdirir. Bax belə "Deep Blue" 1997-ci ildə şahmat üzrə dünya çempionuna qalib gəldi.
-![ML_3.PNG](https://github.com/limpapud/data_science_tutorials_projects/blob/master/Bina_az_tutorial/graphs/ML_3.png)
+![ML_1_3.png](https://github.com/limpapud/data_science_tutorials_projects/blob/master/ML_Tutorials/Articles/Language_AZ/assets/ML_1_3.png)
 
 Mövcud üsullar:
 1. Klassifikasiya
