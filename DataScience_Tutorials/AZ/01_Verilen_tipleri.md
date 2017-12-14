@@ -37,7 +37,7 @@ Bir-biri ilə müqaisəsi mümkün olmayan və ya çətin, kənar anlamlar vasit
 
 Özündə rəqəm tipli və kategoriya tipli verilənləri birləşdirən verilənlər alt-tipidir. Dəyər üzrə sıralamaq mümkün olduğundan və dəyərin sırada yeri vacib olduğundan "sıra" tipli adlandırılıb. Analiz prosessinin asanlaşdırılması məqsədi ilə ilkin məlumat işləməsində dəyərlərə sıra nömrələri verilir.
 
-Məsəl üçün:
+***Məsəl üçün:***
 * Çox xoşbəxt (+2) ( / Xoşbəxt (+1) / Adi (0) / Bədbəxt (-1) / Çox bədbəxt (-2)
 
 Gördüyünüz kimi *Adi* hal ilə *Çox xoşbəxt* arasında 2 xal fərq var, amma bu demək deyil ki eyni 2 xal *Xoşbəxt* və *Bədbəxt* arasında fərqə də aiddir, baxmayaraq ki bu iki hal arasında eynən 2 xal fərq qeyd olunub.
@@ -54,7 +54,7 @@ Analiz zamanı sıra alt-tipli verilənlər üzərində orta dəyər, nisbət, s
 
 Yuxarıda qeyd olunmuş "Sıra tipli" verilənlər tipindən fərqli olaraq Nominal tipli verilənləri mənası üzrə sıralamaq mümkün deyil. Əlavə olaraq bu alt-tip  üzərində riyazi əməliyyatlar da aparmaq olmaz.
 
-Məsəl üçün:
+***Məsəl üçün:***
 * Rənglər: sarı, qırmızı, qara, sarı.
 
 Sarı rəngin qırmızı rəngdən daha *böyük* və ya *daha vacib* olduğunu iddia edə bilmərik.
@@ -71,13 +71,16 @@ Cozef Heller-in "22-ci hiylə" kitabının Erika Leonard-ın "Bozun əlli çalar
 
 Analiz zamanı nominal alt-tipli verilənlər üzərində nisbət, sıxlıq ölçüləri istifadə olunur.
 #### Nümumə vizualizasiya:
-![alt text](https://github.com/limpapud/data_science_tutorials_projects/blob/master/DataScience_Tutorials/AZ/assets/nominal_01.png)
+![alt text](https://github.com/limpapud/data_science_tutorials_projects/blob/master/DataScience_Tutorials/AZ/assets/nominal_01.PNG)
 
 
 
 ### Binar tipli
 
 Adından bəlii olduğu kimi ("bi"-"iki") özündə iki, bir-birini təqzib edən seçimdən birini əks edir.
+
+***Məsəl üçün:***
+
 * Hə/Yox
 * Getmək/Getməmək
 * Yaxşı/Pis
@@ -86,7 +89,7 @@ Adından bəlii olduğu kimi ("bi"-"iki") özündə iki, bir-birini təqzib edə
 Analiz zamanı binar alt-tipli verilənlər üzərində nisbət, sıxlıq ölçüləri istifadə olunur.
 
 #### Nümumə vizualizasiya:
-![alt text](https://github.com/limpapud/data_science_tutorials_projects/blob/master/DataScience_Tutorials/AZ/assets/boolean_01.png)
+![alt text](https://github.com/limpapud/data_science_tutorials_projects/blob/master/DataScience_Tutorials/AZ/assets/boolean_01.PNG)
 
 Deyək ki biz sorğu etmək qərarına gəldik, respondentlərdən ilkin məlumat və xoşbəxtlik statusunu öyrəndikdən sonra gördüyünüz cədvəl və qrafiklər ərsəyə gəldi. Nəticə olaraq yaradılmış cədvəl və verilən tipi üzrə bölgünü əlavə edirəm.
 
